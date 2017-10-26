@@ -1,2 +1,3 @@
 # Data-Structures-Code
-Code of the data structures I implemented
+1) Code of the Data Structures
+2) Project that includes a Graph and Searching algorithm 
