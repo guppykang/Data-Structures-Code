@@ -1,0 +1,3 @@
+Pre-orer : Lay, house, cow, jack , rat, milked, that
+in-order : cow, house, jack, lay, milked, rat, that
+post-order : cow, jack, house, milked, that, rat, lay

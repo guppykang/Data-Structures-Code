@@ -1,0 +1,5 @@
+Lab 4 :self check
+a) The output "i j" is printed n^2 times. The algorithm is  O(n^2).
+b) The output "i j" is printed 2n times. The algorithm is O(n)
+c) The output "i j" is printed n(n+1)/2. The algorithm is  O(n^2).
+d) The output "i j" is printed n. The algorithm is  O(ni) = O(n).

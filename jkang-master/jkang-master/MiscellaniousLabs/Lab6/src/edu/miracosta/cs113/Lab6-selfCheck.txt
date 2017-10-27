@@ -1,0 +1,26 @@
+1. O(n)
+2. O(n)
+3. O(1)
+4. 
+int sum = 0; 
+Node<Integer> nodeRef = head;
+while(nodeRef != null){
+	int next = nodeRef.getNodeValue(); OR nodeRef.data;
+	sum += next;
+	nodeRef = nodeRef.next;
+}
+Drawing in folder
+5.
+a)head holds the reference to a Node of type String with value "Shakira", that points to the old head.
+b)nodeRef refers to the node that head points to (the next node right after head). 
+nodeRef.next is equivalent to saying head.next.next. Similarily, nodeRef.next.next is equivalent to
+head.next.next.next. So we are setting head.next.next to head.next.next.next.  
+c)nodeRef refers to the node head, which refers to the first node in the LinkedList. Until the end
+of the list, we set nodeRef to its next node that it refers to. Then finally, at the end, nodeRef is
+pointing to the node at the end of the LinkedList. Then we set that last node's next value to a new 
+node that containes the String "Tamika"
+d)nodeRef refers to the head node. The nodeRef iterates through the LinkedList until it reaches the end
+of the list or until it reaches harry. If harry was found (nodeRef != null), we set nodeRef's String
+from Harry, to Sally. We then add a node in between nodeRef(Sally) and nodeRef.next, and we put Harry
+there. So basically, we find Harry (if he exists), and we put Sally right before him. 
+
