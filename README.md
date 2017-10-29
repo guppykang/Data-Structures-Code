@@ -5,5 +5,5 @@
       -Use of Dijkstra's Algorithm and Graphs
       -Use of Algorithm and Graphs to find the fastest path from two cities on Long Island
       -Integration of Google maps into application 
-3) Extra UMLs used for Data Structure Projects
+3) Extra UMLs used for Data Structure Projects in PDF format
 
